@@ -40,6 +40,7 @@ header img{
   url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   padding-top: 69px;
+  background-position: center;
 }
 
 .mission .heading{
@@ -56,14 +57,19 @@ header img{
 }
 
 .month .heading{
-  justify-content: center;
-  width: 1000px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .month img{
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
+}
+
+.month .highlights{
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  margin: auto;
 }
